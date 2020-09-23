@@ -1,0 +1,15 @@
+version = 1
+
+exclude_patterns = [
+    "docs/**",
+    ".circleci/**",
+    "src/images/**",
+    "src/preset-themes/**"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = ["nodejs"]
